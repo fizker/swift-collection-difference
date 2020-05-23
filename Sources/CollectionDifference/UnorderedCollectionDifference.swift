@@ -2,21 +2,21 @@ import Foundation
 
 /// Calculates the diffs between two collections.
 /// The order of elements are ignored.
-struct UnorderedCollectionDifference<T: Equatable & Identifiable> {
-	var updates: [T]
-	var insertions: [T]
-	var removals: [T]
+public struct UnorderedCollectionDifference<T: Equatable & Identifiable> {
+	public var updates: [T]
+	public var insertions: [T]
+	public var removals: [T]
 
 	/// All changes in one array.
-	var allChanges: [DiffType] {
+	public var allChanges: [DiffType] {
 		removals.map { .removal($0) } + updates.map { .update($0) } + insertions.map { .insertion($0) }
 	}
 
-	enum DiffType: Equatable {
+	public enum DiffType: Equatable {
 		case update(T), insertion(T), removal(T)
 	}
 
-	init<C>(original: C, new: C) where C: BidirectionalCollection, T == C.Element {
+	public init<C>(original: C, new: C) where C: BidirectionalCollection, T == C.Element {
 		let diff = new.difference(from: original)
 		let removals: [T] = diff.removals.map {
 			switch $0 {

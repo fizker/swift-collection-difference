@@ -1,4 +1,5 @@
-@testable import CollectionDifference
+// This is not @testable on purpose. We want to test only public functionality
+import CollectionDifference
 import XCTest
 
 struct Data: Equatable, Identifiable {
