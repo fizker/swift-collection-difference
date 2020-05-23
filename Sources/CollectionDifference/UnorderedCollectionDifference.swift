@@ -12,7 +12,7 @@ struct UnorderedCollectionDifference<T: Equatable & Identifiable> {
 		removals.map { .removal($0) } + updates.map { .update($0) } + insertions.map { .insertion($0) }
 	}
 
-	enum DiffType {
+	enum DiffType: Equatable {
 		case update(T), insertion(T), removal(T)
 	}
 
