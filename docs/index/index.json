@@ -1,0 +1,112 @@
+{
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "title" : "Structures",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/init(original:new:)",
+                "title" : "init<C>(original: C, new: C)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/allchanges",
+                "title" : "var allChanges: [UnorderedCollectionDifference<T>.DiffType]",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/insertions",
+                "title" : "var insertions: [T]",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/removals",
+                "title" : "var removals: [T]",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/updates",
+                "title" : "var updates: [T]",
+                "type" : "property"
+              },
+              {
+                "title" : "Enumerations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Enumeration Cases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/difftype\/insertion(_:)",
+                    "title" : "case insertion(T)",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/difftype\/removal(_:)",
+                    "title" : "case removal(T)",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/difftype\/update(_:)",
+                    "title" : "case update(T)",
+                    "type" : "case"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/difftype\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/difftype\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/difftype",
+                "title" : "UnorderedCollectionDifference.DiffType",
+                "type" : "enum"
+              }
+            ],
+            "path" : "\/documentation\/collectiondifference\/unorderedcollectiondifference",
+            "title" : "UnorderedCollectionDifference",
+            "type" : "struct"
+          }
+        ],
+        "path" : "\/documentation\/collectiondifference",
+        "title" : "CollectionDifference",
+        "type" : "module"
+      }
+    ]
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}

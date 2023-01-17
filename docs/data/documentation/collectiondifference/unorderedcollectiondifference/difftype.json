@@ -1,0 +1,337 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/CollectionDifference\/documentation\/CollectionDifference",
+        "doc:\/\/CollectionDifference\/documentation\/CollectionDifference\/UnorderedCollectionDifference"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/CollectionDifference\/documentation\/CollectionDifference\/UnorderedCollectionDifference\/DiffType"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:20CollectionDifference09UnorderedaB0V8DiffTypeO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "DiffType"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CollectionDifference"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "DiffType"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "UnorderedCollectionDifference.DiffType"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "DiffType"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/CollectionDifference\/SQ"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/CollectionDifference\/documentation\/CollectionDifference\/UnorderedCollectionDifference\/DiffType\/insertion(_:)",
+        "doc:\/\/CollectionDifference\/documentation\/CollectionDifference\/UnorderedCollectionDifference\/DiffType\/removal(_:)",
+        "doc:\/\/CollectionDifference\/documentation\/CollectionDifference\/UnorderedCollectionDifference\/DiffType\/update(_:)"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/CollectionDifference\/documentation\/CollectionDifference\/UnorderedCollectionDifference\/DiffType\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/collectiondifference\/unorderedcollectiondifference\/difftype"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://CollectionDifference/SQ": {
+  "identifier" : "doc:\/\/CollectionDifference\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://CollectionDifference/documentation/CollectionDifference": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/CollectionDifference\/documentation\/CollectionDifference",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CollectionDifference",
+  "type" : "topic",
+  "url" : "\/documentation\/collectiondifference"
+},
+"doc://CollectionDifference/documentation/CollectionDifference/UnorderedCollectionDifference": {
+  "abstract" : [
+    {
+      "text" : "Calculates the diffs between two collections.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "The order of elements are ignored.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UnorderedCollectionDifference"
+    }
+  ],
+  "identifier" : "doc:\/\/CollectionDifference\/documentation\/CollectionDifference\/UnorderedCollectionDifference",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UnorderedCollectionDifference"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UnorderedCollectionDifference",
+  "type" : "topic",
+  "url" : "\/documentation\/collectiondifference\/unorderedcollectiondifference"
+},
+"doc://CollectionDifference/documentation/CollectionDifference/UnorderedCollectionDifference/DiffType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DiffType"
+    }
+  ],
+  "identifier" : "doc:\/\/CollectionDifference\/documentation\/CollectionDifference\/UnorderedCollectionDifference\/DiffType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DiffType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UnorderedCollectionDifference.DiffType",
+  "type" : "topic",
+  "url" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/difftype"
+},
+"doc://CollectionDifference/documentation/CollectionDifference/UnorderedCollectionDifference/DiffType/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/CollectionDifference\/documentation\/CollectionDifference\/UnorderedCollectionDifference\/DiffType\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/difftype\/equatable-implementations"
+},
+"doc://CollectionDifference/documentation/CollectionDifference/UnorderedCollectionDifference/DiffType/insertion(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "insertion"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/CollectionDifference\/documentation\/CollectionDifference\/UnorderedCollectionDifference\/DiffType\/insertion(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UnorderedCollectionDifference.DiffType.insertion(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/difftype\/insertion(_:)"
+},
+"doc://CollectionDifference/documentation/CollectionDifference/UnorderedCollectionDifference/DiffType/removal(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "removal"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/CollectionDifference\/documentation\/CollectionDifference\/UnorderedCollectionDifference\/DiffType\/removal(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UnorderedCollectionDifference.DiffType.removal(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/difftype\/removal(_:)"
+},
+"doc://CollectionDifference/documentation/CollectionDifference/UnorderedCollectionDifference/DiffType/update(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "update"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/CollectionDifference\/documentation\/CollectionDifference\/UnorderedCollectionDifference\/DiffType\/update(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UnorderedCollectionDifference.DiffType.update(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/difftype\/update(_:)"
+}
+}
+}

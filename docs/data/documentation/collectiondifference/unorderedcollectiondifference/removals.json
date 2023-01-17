@@ -1,0 +1,207 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/CollectionDifference\/documentation\/CollectionDifference",
+        "doc:\/\/CollectionDifference\/documentation\/CollectionDifference\/UnorderedCollectionDifference"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/CollectionDifference\/documentation\/CollectionDifference\/UnorderedCollectionDifference\/removals"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:20CollectionDifference09UnorderedaB0V8removalsSayxGvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "removals"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : "]"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CollectionDifference"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "removals"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "removals"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "T"
+            },
+            {
+              "kind" : "text",
+              "text" : "]"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/collectiondifference\/unorderedcollectiondifference\/removals"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://CollectionDifference/documentation/CollectionDifference": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/CollectionDifference\/documentation\/CollectionDifference",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CollectionDifference",
+  "type" : "topic",
+  "url" : "\/documentation\/collectiondifference"
+},
+"doc://CollectionDifference/documentation/CollectionDifference/UnorderedCollectionDifference": {
+  "abstract" : [
+    {
+      "text" : "Calculates the diffs between two collections.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "The order of elements are ignored.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UnorderedCollectionDifference"
+    }
+  ],
+  "identifier" : "doc:\/\/CollectionDifference\/documentation\/CollectionDifference\/UnorderedCollectionDifference",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UnorderedCollectionDifference"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UnorderedCollectionDifference",
+  "type" : "topic",
+  "url" : "\/documentation\/collectiondifference\/unorderedcollectiondifference"
+},
+"doc://CollectionDifference/documentation/CollectionDifference/UnorderedCollectionDifference/removals": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "removals"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/CollectionDifference\/documentation\/CollectionDifference\/UnorderedCollectionDifference\/removals",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "removals",
+  "type" : "topic",
+  "url" : "\/documentation\/collectiondifference\/unorderedcollectiondifference\/removals"
+}
+}
+}
